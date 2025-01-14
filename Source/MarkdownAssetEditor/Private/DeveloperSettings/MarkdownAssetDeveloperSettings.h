@@ -63,7 +63,7 @@ protected:
 	// If disabled or not valid, the same folder of the asset will be used instead.
 
 	UPROPERTY(Config, EditDefaultsOnly, Category=AssetCreation, meta=(EditCondition=bUseDefaultFolder))
-	FDirectoryPath DocumentationDirectory = FDirectoryPath("/Game/Documentation");
+	FDirectoryPath DocumentationDirectory = FDirectoryPath {TEXT("/Game/Documentation") };
 
 	UPROPERTY(Config, EditDefaultsOnly, Category=AssetCreation)
 	FString DefaultPrefix = FString(TEXT("MD_"));

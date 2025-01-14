@@ -27,6 +27,7 @@ public class MarkdownAssetEditor : ModuleRules
             "Core",
             "CoreUObject",
             "DesktopWidgets",
+            "DesktopPlatform",
             "EditorStyle",
             "Engine",
             "InputCore",

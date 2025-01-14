@@ -4,6 +4,7 @@
 
 #include "ContentBrowserMenuContexts.h"
 #include "DesktopPlatformModule.h"
+#include "Misc/FileHelper.h"
 #include "MarkdownAsset.h"
 #include "MarkdownAssetEditorToolkit.h"
 #include "Icons/Icons.h"

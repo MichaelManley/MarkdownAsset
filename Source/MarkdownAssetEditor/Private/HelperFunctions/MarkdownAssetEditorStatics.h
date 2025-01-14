@@ -142,7 +142,7 @@ namespace MarkdownAssetStatics
 		/** Default folder is valid but doesn't exist, so we create it if the user wants. */
 		FText Title = FText::FromString("Default Folder doesn't exist");
 		FText Message = FText::Format(FText::FromString("Do you want to create the folder now '{0}'?"), FText::FromString(RelativeDocumentationFolderPath));
-		EAppReturnType::Type Response = FMessageDialog::Open(EAppMsgType::YesNo, Message, Title);
+		EAppReturnType::Type Response = FMessageDialog::Open(EAppMsgType::YesNo, Message, &Title);
 		
 		if (Response == EAppReturnType::No)
 		{
